@@ -14,18 +14,18 @@ pipeline {
 		}
 		stage('Deploy') {
 			steps {
-				echo "Deploying in Staging Area'
+				echo 'Deploying in Staging Area'
 			}
 		}
 		
 		stage('Deploy in Quality Assurance') {
 			steps {
-				echo "Deploying in Quality Assurance"
+				echo 'Deploying in Quality Assurance'
 			}
 		}
 		stage('Deploy Production') {
 			steps {
-				echo "Deploy in Production Area"
+				echo 'Deploy in Production Area'
 			}
 		}
 	}
